@@ -45,7 +45,7 @@ q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vert
 /* Page Layout CSS */
 body
 {
-background-image:url('images/background.jpg');
+background-image:url('../images/background.jpg');
 background-color: #9900CC;
 }
 
@@ -65,9 +65,9 @@ color:black;
 #navigation
 {
 list-style-type: none;
-position: absolute;
+position: relative;
 top: 0px;
-right: 300px;
+left: 550px;
 }
 
 #navigation a
