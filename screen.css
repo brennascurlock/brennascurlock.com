@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Reset CSS */
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.8.1
+*/
+html{
+color:#000;background:#FFF;}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{
+margin:0;
+padding:0;}
+
+table{
+border-collapse:collapse;
+border-spacing:0;}
+
+fieldset,img{
+border:0;}
+
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{
+font-style:inherit;
+font-weight:inherit;}
+
+del,ins{
+text-decoration:none;}
+
+li{
+list-style:none;}
+
+caption,th{
+text-align:left;}
+
+h1,h2,h3,h4,h5,h6{
+font-size:100%;
+font-weight:normal;}
+
+q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{font-size:100%;}
+
+
+/* Page Layout CSS */
+body
+{
+background-image:url('background.jpg');
+background-color: #9900CC;
+}
+
+#contentwrapper 
+{
+margin: 0 auto;
+background-color: white;
+width: 800px;
+}
+
+#contentwrapper a
+{
+color:black;
+}
+
+/* Navigation */
+#navigation
+{
+list-style-type: none;
+position: absolute;
+top: 0px;
+right: 300px;
+}
+
+#navigation a
+{
+height: 30px;
+padding-left: 5px;
+padding-right: 5px;
+background-color: black;
+color: white;
+font-family:"Arial Black", Gadget, sans-serif;
+text-decoration:none; 
+}
+
+#navigation a:hover,a:active
+{
+background-color:#9900CC;
+}
+
+#navigation li
+{
+display: inline;
+}
+
+/* Headers and Paragraphs */
+
+h1
+{
+font-size: 200%;
+font-variant: small-caps;
+font-family:"Arial Black", Gadget, sans-serif;
+padding-left: 5px;
+}
+
+h2
+{
+font-size: 100%;
+padding-left: 5px;
+font-family:"Arial Black", Gadget, sans-serif;
+}
+
+.header
+{
+background-color: black;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+p
+{
+padding-left:5px;
+padding-bottom:10px;
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Images */
+
+img.sample
+{
+height: 400px;
+}
+
+/* Footer */
+#footer
+{
+font-family:"Arial Black", Gadget, sans-serif;
+text-align: center;
+background-color: black;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-left: 5px;
+}
+
+
+/* RESUME CSS */
+/* Overview Section */
+
+#overview
+{
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#overview ul
+{
+list-style-type: none;
+margin-bottom: 10px;
+margin-left: 5px;
+}
+
+#overview li
+{
+display: inline;
+padding-right: 5px;
+font-size: 75%;
+}
+
+#overview li + li
+{
+border-left: 3px solid #9900CC;
+padding-left: 8px;
+}
+
+#overview li + li + li + li + li + li + li
+{
+
+}
+
+/* Education Section */
+
+#education
+{
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#education ul
+{
+list-style-type: none;
+padding-left: 5px;
+}
+
+#education li
+{
+padding-bottom: 10px;
+}
+
+#education li + li
+{
+padding-bottom: 0px;
+}
+
+/* Experience Section and Samples Page */
+
+#experience
+{
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#experience ol,ul
+{
+list-style-type: none;
+padding-left: 0px;
+}
+
+#samples
+{
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#samples ol,ul
+{
+list-style-type: none;
+padding-left: 0px;
+}
+
+ol > li
+{
+font-weight: bold;
+margin-top: 10px;
+padding-left: 5px;
+}
+
+ol > li > ul > li
+{
+font-style: italic;
+font-weight: normal;
+margin-top: 10px;
+padding-left: 40px;
+}
+
+ol > li > ul > li > ul > li
+{
+border-left: 10px solid #9900CC;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 30px;
+padding-left: 10px;
+list-style-type: none;
+font-style: normal;
+font-weight: normal;
+font-size: 75%;
+}
+
+ol > li > ol > li
+{
+font-size: 75%;
+font-weight: normal;
+margin-top: 10px;
+padding-left: 40px;
+}
+
+ol > li > ol > li a
+{
+font-weight: bold;
+}
