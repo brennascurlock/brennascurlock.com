@@ -45,7 +45,10 @@ q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vert
 /* Page Layout CSS */
 html
 {
-background-color: #9900CC;
+background-color: black;
+background-image:url('../images/background-fade.png');
+background-repeat:repeat-x;
+background-position:left top;
 }
 
 body
@@ -84,7 +87,7 @@ font-family:"Arial Black", Gadget, sans-serif;
 text-decoration:none; 
 }
 
-#navigation a:hover,a:active
+#navigation a:hover, a:active
 {
 background-color:#9900CC;
 }
