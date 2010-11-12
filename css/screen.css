@@ -61,6 +61,7 @@ body
 margin: 0 auto;
 background-color: white;
 width: 800px;
+position: relative;
 }
 
 #contentwrapper a
@@ -72,8 +73,9 @@ color:black;
 #navigation
 {
 list-style-type: none;
-position: relative;
+position: absolute;
 top: 0px;
+right: 10px;
 }
 
 #navigation a
