@@ -91,7 +91,7 @@ text-decoration:none;
 
 #navigation a:hover, a:active
 {
-background-color:#9900CC;
+background-color:#6600CC;
 }
 
 #navigation li
@@ -194,7 +194,7 @@ font-size: 75%;
 
 #overview li + li
 {
-border-left: 3px solid #9900CC;
+border-left: 3px solid #6600CC;
 padding-left: 8px;
 }
 
@@ -267,7 +267,7 @@ padding-left: 40px;
 
 ol > li > ul > li > ul > li
 {
-border-left: 10px solid #9900CC;
+border-left: 10px solid #6600CC;
 margin-top: 5px;
 margin-bottom: 5px;
 margin-left: 30px;
