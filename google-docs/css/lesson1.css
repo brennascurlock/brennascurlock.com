@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container
+{
+width: 900px; 
+margin: 0 auto;
+border-left: 5px solid blue;
+}
