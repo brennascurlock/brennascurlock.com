@@ -49,6 +49,7 @@ background-color: #101010;
 background-image:url('../images/background-fade.png');
 background-repeat:repeat-x;
 background-position:left top;
+color: #101010;
 }
 
 body
@@ -60,7 +61,7 @@ padding-top: 30px;
 {
 margin: 0 auto;
 background-color: white;
-width: 800px;
+width: 900px;
 position: relative;
 }
 
@@ -74,7 +75,7 @@ color:#101010;
 {
 list-style-type: none;
 position: absolute;
-top: 0px;
+top: 15px;
 right: 10px;
 }
 
@@ -83,6 +84,8 @@ right: 10px;
 height: 30px;
 padding-left: 5px;
 padding-right: 5px;
+padding-top: 15px;
+padding-bottom: 15px;
 background-color: #101010;
 color: white;
 font-family:"Arial Black", Gadget, sans-serif;
@@ -91,7 +94,7 @@ text-decoration:none;
 
 #navigation a:hover, a:active
 {
-background-color:#6600CC;
+background-color:#00CC00;
 }
 
 #navigation li
@@ -103,24 +106,26 @@ display: inline;
 
 h1
 {
-font-size: 200%;
-font-variant: small-caps;
-font-family:"Arial Black", Gadget, sans-serif;
+font-size: 300%;
+font-family: "chunk-1","chunk-2",sans-serif;
 padding-left: 5px;
 }
 
 h2
 {
-font-size: 100%;
+font-size: 150%;
 padding-left: 5px;
-font-family:"Arial Black", Gadget, sans-serif;
+font-family: "chunk-1","chunk-2",sans-serif;
+border-bottom: 2px solid #101010;
+margin-top: 30px;
+margin-bottom: 10px;
 }
 
 h3
 {
 font-size: 100%;
-padding-left: 5px;
-padding-bottom: 5px;
+padding-left: 50px;
+padding-bottom: 10px;
 font-family: Georgia, "Times New Roman", Times, serif;
 font-weight: bold;
 }
@@ -128,47 +133,48 @@ font-weight: bold;
 h4
 {
 font-size: 80%;
-padding-left: 5px;
-padding-bottom: 5px;
+padding-left: 50px;
+padding-bottom: 10px;
 font-family: Georgia, "Times New Roman", Times, serif;
 font-weight: bold;
 }
 
 .header
 {
-background-color: #101010;
-color: white;
-margin-top: 10px;
-margin-bottom: 10px;
+
 }
 
 p
 {
-padding-left:5px;
-padding-right: 5px;
+padding-left:50px;
+padding-right: 50px;
 padding-bottom:10px;
 font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /* Images */
 
-img.sample
+img.float
 {
-height: 400px;
+margin-bottom:5px;
+padding: 0px;
+border: 0px;
+float: left;
 }
 
 /* Footer */
 #footer
 {
-font-family:"Arial Black", Gadget, sans-serif;
+font-family: Georgia, "Times New Roman", Times, serif;
 text-align: center;
 background-color: #101010;
 color: white;
 margin-top: 10px;
 padding-top: 5px;
-
 }
-
+#footer a{
+color:white;
+}
 
 /* RESUME CSS */
 /* Overview Section */
@@ -183,13 +189,14 @@ font-family: Georgia, "Times New Roman", Times, serif;
 list-style-type: none;
 margin-bottom: 10px;
 margin-left: 5px;
+padding-left: 45px;
 }
 
 #overview li
 {
 display: inline;
 padding-right: 5px;
-font-size: 75%;
+font-size: 90%;
 }
 
 #overview li + li
@@ -213,7 +220,8 @@ font-family: Georgia, "Times New Roman", Times, serif;
 #education ul
 {
 list-style-type: none;
-padding-left: 5px;
+padding-left: 50px;
+padding-right: 50px;
 }
 
 #education li
@@ -262,7 +270,7 @@ ol > li > ul > li
 font-style: italic;
 font-weight: normal;
 margin-top: 10px;
-padding-left: 40px;
+padding-left: 45px;
 }
 
 ol > li > ul > li > ul > li
@@ -275,16 +283,16 @@ padding-left: 10px;
 list-style-type: none;
 font-style: normal;
 font-weight: normal;
-font-size: 75%;
+font-size: 90%;
 }
 
 ol > li > ol > li
 {
-font-size: 75%;
+font-size: 90%;
 font-weight: normal;
 margin-top: 10px;
-padding-left: 40px;
-padding-right: 5px;
+padding-left: 45px;
+padding-right: 50px;
 }
 
 ol > li > ol > li a
@@ -295,12 +303,13 @@ font-weight: bold;
 /* Writing Samples CSS */
 
 blockquote {
-width: 350px;
+width: 300px;
 float: right;
-margin-left: 10px;
-padding-left: 5px;
-padding-bottom: 10px;
-border-bottom: 5px solid #6600CC;
+margin-left: 15px;
+margin-bottom: 15px;
+padding-left: 10px;
+padding-right: 10px;
+border-left: 5px solid #6600CC;
 font-style: italic;
 font-size: 150%;
 color: #808080;
@@ -308,9 +317,10 @@ color: #808080;
 
 blockquote.left {
 float: left;
-margin-left: 0px;
-padding-left: 5px;
-margin-right: 10px;
-padding-right: 5px;
-
+padding-left: 10px;
+margin-right: 15px;
+padding-right: 10px;
+border-right: 5px solid #6600CC;
+border-left: 0px;
 }
+
