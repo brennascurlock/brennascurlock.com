@@ -162,6 +162,12 @@ border: 0px;
 float: left;
 }
 
+img.sample
+{
+height: 150px;
+float: right;
+}
+
 /* Footer */
 #footer
 {
