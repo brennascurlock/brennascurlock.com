@@ -164,8 +164,9 @@ float: left;
 
 img.sample
 {
-height: 150px;
+height: 100px;
 float: right;
+border-left: 5px solid #101010;
 }
 
 /* Footer */
@@ -305,6 +306,15 @@ ol > li > ol > li a
 {
 font-weight: bold;
 }
+
+/* Samples page navigation */
+
+#samplesnav li{
+padding-left: 5px;
+padding-bottom: 10px;
+}
+
+
 
 /* Writing Samples CSS */
 
