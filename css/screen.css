@@ -139,11 +139,6 @@ font-family: Georgia, "Times New Roman", Times, serif;
 font-weight: bold;
 }
 
-.header
-{
-
-}
-
 p
 {
 padding-left:50px;
@@ -171,8 +166,6 @@ float: right;
 img.sample2
 {
 height: 200px;
-float: right;
-margin: 10px;
 border: 3px solid #101010;
 }
 
@@ -305,15 +298,15 @@ font-family: Georgia, "Times New Roman", Times, serif;
 {
 list-style-type: none;
 padding-left: 5px;
-
 }
+
 
 ol > li > ol > li
 {
 font-size: 90%;
 font-weight: normal;
 margin-top: 10px;
-padding-left: 0px;
+padding-left: 35px;
 padding-right: 50px;
 }
 
@@ -321,6 +314,27 @@ ol > li > ol > li a
 {
 font-weight: bold;
 }
+
+.description
+{
+width: 480px;
+}
+
+/* Samples pages images */
+#samples ul
+{
+position: absolute;
+left: 500px;
+top: 150px;
+}
+
+#samples ul li 
+{
+float: left;
+padding: 10px;
+}
+
+
 
 /* Samples page navigation */
 
