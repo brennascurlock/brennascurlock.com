@@ -160,7 +160,9 @@ float: left;
 img.sample
 {
 height: 200px;
-float: right;
+position: absolute;
+right: 0px;
+top: 180px;
 }
 
 img.sample2
