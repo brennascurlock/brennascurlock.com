@@ -281,14 +281,14 @@ font-weight: normal;
 font-size: 90%;
 }
 
-/* Samples */
+/* Portfolio */
 
-#samples
+#portfolio
 {
 font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-#samples ol
+#portfolio ol
 {
 list-style-type: none;
 padding-left: 5px;
@@ -315,21 +315,21 @@ text-decoration:none;
 width: 480px;
 }
 
-/* Samples pages images */
+/* Portfolio pages images */
 
-#samples ul li 
+#portfolio ul li 
 {
 position: absolute;
 right: 50px;
 top: 160px;
 }
 
-#samples ul li + li + li + li
+#portfolio ul li + li + li + li
 {
 right: 0px;
 top: 190px;
 }
-/* Samples page navigation */
+/* Portfolio page navigation */
 
 #samplesnav a{
 margin-left:40px;
