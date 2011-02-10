@@ -1,0 +1,10 @@
+	<ul>
+		<li><a href="images/colorado.jpg" rel="lightbox[samples]" title="Rocky Mountains, 2010"><img src="images/colorado.jpg" alt="Rocky Mountains, 2010." title="Rocky Mountains, 2010." /></a></li>
+		<li><a href="images/chicago.jpg" rel="lightbox[samples]" title="Millennium Park snow, 2008"><img class="hide" src="images/chicago.jpg" alt="Millennium Park snow, 2008." title="Millennium Park snow, 2008." /></a></li>
+		<li><a href="images/france.jpg" rel="lightbox[samples]" title="Me + Eiffel Tower, 2008"><img class="hide" src="images/france.jpg" alt="Me + Eiffel Tower, 2008." title="Me + Eiffel Tower, 2008." /></a></li>
+		<li><a href="images/colorado2.jpg" rel="lightbox[samples]" title="Ghost town in the Rockies, 2010"><img class="hide" src="images/colorado2.jpg" alt="Ghost town in the Rockies, 2010." title="Ghost town in the Rockies, 2010." /></a></li>
+		<li><a href="images/sanfran.jpg" rel="lightbox[samples]" title="Alcatraz Island water tower, 2008"><img class="hide" src="images/sanfran.jpg" alt="Alcatraz Island water tower, 2008." title="Alcatraz Island water tower, 2008." /></a></li>
+		<li><a href="images/france2.jpg" rel="lightbox[samples]" title="Street, Eze, France, 2008"><img class="hide" src="images/france2.jpg" alt="Street, Eze, France, 2008." title="Street, Eze, France, 2008." /></a></li>
+	</ul>
+	
+	
