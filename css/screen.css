@@ -349,4 +349,56 @@ color:#9966FF;
 padding-top:10px;
 }
 
+/*Masters Portfolio Overlay CSS*/
+
+#gradsample p{
+    padding:0px;
+    width:300px;  
+}
+
+#gradsample img{
+    position:absolute;
+    top:60px;
+    right:20px;
+}
+
+.description{
+    padding-top:20px;
+    padding-left:10px;
+}
+
+.ui-widget{
+    border: 2px solid #444444;
+    position:relative;
+    padding: 0px 0px 50px 0px;
+}
+
+.ui-widget a{
+    color:#00CC00;
+}
+
+.ui-widget-header{
+padding: 10px;
+background-color:#444444;
+}
+
+.ui-widget-content{
+	background-color:#F0F0F0;
+
+        
+}
+
+.ui-icon ui-icon-closethick{
+
+}
+
+.ui-dialog-title{
+	color:#F0F0F0;
+	font-weight:bold;
+}
+
+.ui-dialog-titlebar-close{
+	float:right;
+}
+
 
