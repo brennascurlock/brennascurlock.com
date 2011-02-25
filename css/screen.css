@@ -351,6 +351,14 @@ padding-top:10px;
 
 /*Masters Portfolio Overlay CSS*/
 
+#gradsample h3{
+    font-weight:bold;
+}
+
+#gradsample h4{
+    font-style:italic;
+}
+
 #gradsample p{
     padding:0px;
     width:300px;  
@@ -358,19 +366,27 @@ padding-top:10px;
 
 #gradsample img{
     position:absolute;
-    top:60px;
+    top:90px;
     right:20px;
 }
 
 .description{
     padding-top:20px;
-    padding-left:10px;
+    padding-left:20px;
 }
 
 .ui-widget{
     border: 2px solid #444444;
     position:relative;
     padding: 0px 0px 50px 0px;
+    -moz-box-shadow: 5px 5px 5px #B0B0B0;
+    -webkit-box-shadow: 5px 5px 5px #B0B0B0;
+    box-shadow: 5px 5px 5px #B0B0B0;
+
+}
+
+.ui-dialog-title{
+    font-size:1.5em;
 }
 
 .ui-widget a{
@@ -378,7 +394,7 @@ padding-top:10px;
 }
 
 .ui-widget-header{
-padding: 10px;
+padding: 20px;
 background-color:#444444;
 }
 
