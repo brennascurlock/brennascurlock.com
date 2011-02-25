@@ -361,18 +361,20 @@ padding-top:10px;
 
 #gradsample p{
     padding:0px;
-    width:300px;  
+      
 }
 
 #gradsample img{
     position:absolute;
     top:90px;
     right:20px;
+    height:200px;
 }
 
 .description{
     padding-top:20px;
     padding-left:20px;
+    width:300px;
 }
 
 .ui-widget{
@@ -382,7 +384,6 @@ padding-top:10px;
     -moz-box-shadow: 5px 5px 5px #B0B0B0;
     -webkit-box-shadow: 5px 5px 5px #B0B0B0;
     box-shadow: 5px 5px 5px #B0B0B0;
-
 }
 
 .ui-dialog-title{
