@@ -1,8 +1,3 @@
-#tabs{
-    margin-top:10px;
-    position:relative;
-}
-
 .ui-tabs .ui-tabs-nav {
     position: absolute;
     left:0;
@@ -21,7 +16,7 @@
 }
 
 .ui-tabs-panel{
-    padding:10px 20px 20px 10px;
+    padding:20px 20px 20px 10px;
     margin-left:220px;
     background-color:#DCDCDC;
 }

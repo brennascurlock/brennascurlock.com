@@ -164,6 +164,7 @@ display:none;
 #tabs img{
     float:right;
     width:280px;
+    border:5px solid #DCDCDC;
 }
 
 /*About Page*/
@@ -296,10 +297,30 @@ padding-right:300px;
 
 /* Portfolio */
 
+#tabs{
+    position:relative;
+}
 
-ol > li > ol > li /*Writing Samples*/
+#tabs ul li a{
+    color:#444444;
+}
+
+#tabs-1,#tabs-2,#tabs-3,#tabs-4 /*Portfolio Items No Javascript*/
+{
+    padding-bottom:30px;
+    margin-top:30px;
+}
+
+#tabs ol > li > ol > li /*Writing Samples*/
 {
 font-weight:normal;
+padding-left:0px;
+}
+
+#tabs ol > li{
+    padding-top:0px;
+    padding-bottom:15px;
+    padding-left:10px;
 }
 
 .description /*Portfolio item or writing sample description*/
