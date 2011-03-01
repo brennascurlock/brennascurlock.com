@@ -1,20 +1,25 @@
+#tabs{
+    margin-top:10px;
+    position:relative;
+}
+
 .ui-tabs{
-    position: relative;
-    padding: .2em; zoom: 1;
+    
 } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
 
 .ui-tabs .ui-tabs-nav {
-    margin: 0;
-    padding: .2em .2em 0;
+    position: absolute;
+    left:0;
+    top:0;
 }
 
 .ui-tabs .ui-tabs-nav li {
-    
-    position: relative;
-    background-color:gray;
+    width:229px;
+    background-color:#DCDCDC;
     border-bottom:1px solid white;
+    border-right:1px solid white;
     padding: 10px;
-    white-space: nowrap;
+    
 }
 
 .ui-tabs .ui-tabs-nav li a {
@@ -23,10 +28,16 @@
 }
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
-    
+    width:230px;
 }
 
-
+.ui-tabs-panel{
+    padding:10px;
+    position:absolute;
+    left:250px;
+    top:0px;
+    background-color:#DCDCDC;
+}
 
 .ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
     cursor: pointer;
