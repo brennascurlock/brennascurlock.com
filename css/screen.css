@@ -88,21 +88,20 @@ padding-bottom:20px;
 {
 list-style-type: none;
 position: absolute;
-bottom:5px;
+bottom:20px;
 right:0px;
 }
 
 #navigation a
 {
-background-color:#33BB55;
 text-decoration:none;
-padding: 10px 10px 5px 10px; 
-color:#F0F0F0;
+padding: 20px 10px 20px 10px; 
+color:#444444;
 }
 
 #navigation a:hover, a:active
 {
-background-color:#00CC00;
+background-color:#DCDCDC;
 }
 
 #navigation li
@@ -206,8 +205,7 @@ right:0px;
 top:0px;
 display:inline;
 padding: 10px;
-background-color:#33BB55;
-color:#F0F0F0;
+color:#444444;
 }
 
 /* RESUME CSS */
