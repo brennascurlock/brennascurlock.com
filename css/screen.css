@@ -65,7 +65,6 @@ padding-top:30px;
 padding-left:15px;
 padding-right:15px;
 position:relative;
-
 }
 
 #contentwrapper a
@@ -160,12 +159,14 @@ img.hide
 display:none;
 }
 
+/*About Page*/
+
 #about
 {
 position:relative;
 }
 
-#about ul li
+#about ul li /*Image One*/
 {
 position:absolute;
 top:20px;
@@ -173,7 +174,7 @@ right:0px;
 width:250px;
 }
 
-#about ul li.two
+#about ul li.two /*Image Two*/
 {
 top:260px;
 right:0px;
@@ -188,6 +189,7 @@ right:0px;
     padding-right:300px;
     font-weight:normal;
 }
+
 /* Footer */
 #footer
 {
@@ -262,14 +264,14 @@ padding-right:300px;
 
 }
 
-ol > li
+ol > li /*Employer Name*/
 {
 font-weight:bold;
 padding-top:15px;
 padding-left:10px;
 }
 
-ol > li > ul > li
+ol > li > ul > li /*Job Title*/
 {
 padding-top:10px;
 padding-left:30px;
@@ -277,7 +279,7 @@ font-style:italic;
 font-weight:normal;
 }
 
-ol > li > ul > li > ul > li
+ol > li > ul > li > ul > li /*Duties*/
 {
 font-weight:normal;
 font-style:normal;
@@ -289,52 +291,16 @@ padding-right:300px;
 
 /* Portfolio */
 
-#portfolio
-{
 
-}
-
-#portfolio ol
-{
-
-}
-
-
-ol > li > ol > li
+ol > li > ol > li /*Writing Samples*/
 {
 font-weight:normal;
 padding-right:300px;
 }
 
-ol > li > ol > li a
-{
-
-}
-
-.description
+.description /*Portfolio item or writing sample description*/
 {
 padding-right:150px;
-}
-
-/* Portfolio pages images */
-
-#portfolio ul li 
-{
-position: absolute;
-right: 15px;
-top: 180px;
-}
-
-
-/* Portfolio page navigation */
-
-#samplesnav a{
-
-}
-
-#samplesnav a:hover, a:active
-{
-
 }
 
 
