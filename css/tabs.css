@@ -3,10 +3,6 @@
     position:relative;
 }
 
-.ui-tabs{
-    
-} /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
-
 .ui-tabs .ui-tabs-nav {
     position: absolute;
     left:0;
@@ -14,40 +10,20 @@
 }
 
 .ui-tabs .ui-tabs-nav li {
-    width:229px;
-    background-color:#DCDCDC;
-    border-bottom:1px solid white;
-    border-right:1px solid white;
+    width:200px;
     padding: 10px;
     
 }
 
-.ui-tabs .ui-tabs-nav li a {
-    
-    
-}
-
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
-    width:230px;
-}
-
-.ui-tabs-panel{
-    padding:10px;
-    position:absolute;
-    left:250px;
-    top:0px;
+    width:200px;
     background-color:#DCDCDC;
 }
 
-.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
-    cursor: pointer;
-} /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
-
-.ui-tabs .ui-tabs-panel {
-    
-    
-    
-    
+.ui-tabs-panel{
+    padding:10px 20px 20px 10px;
+    margin-left:220px;
+    background-color:#DCDCDC;
 }
 
 .ui-tabs .ui-tabs-hide {

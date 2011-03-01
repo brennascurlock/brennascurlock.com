@@ -127,12 +127,14 @@ font-weight:bold;
 
 h3
 {
-
+font-weight:bold;
+padding-left:10px;
 }
 
 h4
 {
-
+font-style:italic;
+padding-left:10px;
 }
 
 p
@@ -157,6 +159,11 @@ top:180px;
 img.hide
 {
 display:none;
+}
+
+#tabs img{
+    float:right;
+    width:280px;
 }
 
 /*About Page*/
@@ -194,20 +201,18 @@ right:0px;
 #footer
 {
 border-top: 2px solid #33BB55;
-padding-top:10px;
-padding-bottom:10px;
+padding-top:20px;
+padding-bottom:20px;
+margin-top:20px;
 position:relative;
-margin-top:30px;
 }
 
 #footer li
 {
-position:absolute;
-right:0px;
-top:0px;
 display:inline;
-padding: 10px;
 color:#444444;
+position:absolute;
+right:0;
 }
 
 /* RESUME CSS */
@@ -295,7 +300,6 @@ padding-right:300px;
 ol > li > ol > li /*Writing Samples*/
 {
 font-weight:normal;
-padding-right:300px;
 }
 
 .description /*Portfolio item or writing sample description*/
