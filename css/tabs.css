@@ -11,14 +11,20 @@
 }
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
-    width:200px;
+    width:210px;
     background-color:#DCDCDC;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
 }
 
 .ui-tabs-panel{
     padding:20px 20px 20px 10px;
     margin-left:220px;
     background-color:#DCDCDC;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
 }
 
 .ui-tabs .ui-tabs-hide {
