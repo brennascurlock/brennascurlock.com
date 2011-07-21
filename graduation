@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<title>I'm graduating! Hah!</title>
+
+<link rel="stylesheet" href="css/graduation.css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<script> 
+ 
+ $(document).ready(function(){
+   $("ol li:nth-child(odd)").css("font-weight", "bold");
+ });
+
+</script>
+
+</head>
+
+<body>
+
+
+<div id="header">
+	<h1>How much wood would a woodchuck chuck if a woodchuck could chuck wood?</h1>
+	<p>I know the answer, because I just got my <em>masters.</em></p>
+</div>
+
+<div id="page">
+	<h1>Come celebrate with me!</h1>
+	<p>In true Plainfield style, I'm hosting a bar crawl. We'll hit all the hot spots:</p>
+		<ul>
+			<li>Front Street Cantina</li>
+			<li>Finnegan's Irish Pub</li>
+			<li>Back Door Pub</li>
+			<li>Uptown Tap</li>
+			<li>Moejoe's</li>
+		</ul>
+		
+	<div id="map">
+	
+	<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;ll=41.608415,-88.20262&amp;spn=0.011006,0.01929&amp;msid=214929240738553586364.0004a273f639ec1bdd762&amp;output=embed"></iframe>
+	<br />
+	<small>View <a href="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;ll=41.608415,-88.20262&amp;spn=0.011006,0.01929&amp;msid=214929240738553586364.0004a273f639ec1bdd762&amp;source=embed" style="color:#0000FF;text-align:left">Plainfield Bar Crawl</a> in a larger map</small>
+	
+	</div>
+	
+	<div id="faq">
+	
+	<h1>FAQ</h1>
+	
+	<ol>
+		<li>When is this glorious event?</li>
+		<li>Friday, May 20, starting at 8:00 p.m. Or 7:00 p.m. Or whenever you arrive.</li>
+		
+		<li>Will there be booze?</li>
+		<li>I will spring for a pony keg of Oberon, but the rest is up to you. This ain't Chicago, so beers are pretty affordable. (Plus, there are $2 apple pie shots at Back Door Pub!)</li>
+		
+		<li>Can I sleep on your front porch swing?</li>
+		<li>Sure, but there are plenty of beds/couches inside as well. And my mom will make you breakfast in the morning.</li>
+		
+		<li>I am SO excited. Can I RSVP right now?</li>
+		<li>Totally! You don't have to tell me whether you're coming, but like I said - my mom will make you breakfast in the morning. If you want bacon, let me know you're in!</li>
+		
+	</ol>
+	
+	</div>
+
+</div>
+
+</body>
+
+</html>

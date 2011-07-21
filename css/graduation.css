@@ -1,0 +1,69 @@
+html{
+	background-color:#696969;
+	position:relative;
+}
+
+body{
+	width:425px;
+	margin:0 auto;
+	font-family: "Helvetica", arial, sans;
+	
+}
+
+#header{
+	color:#98FB98;
+	
+}
+
+#header h1{
+	font-size: 3em;
+	line-height: 1;
+}
+
+#header p{
+	font-size:2em;
+}
+
+#page{
+	color:#FF69B4;
+}
+
+#page h1{
+	font-size: 2.5em;
+	line-height: 1;
+}
+
+#page p, ul, ol{
+	font-size:1.5em;
+}
+
+ul{
+	list-style-type:square;
+	padding-left:20px;
+}
+
+ol{
+	list-style-type:none;
+	padding-left:0px;
+}
+
+ol li{
+	padding-bottom:10px;
+}
+
+#faq{
+	color:#00BFFF;
+}
+
+h1.bitches{
+	font-size:5em;
+	color:#E6E6FA;
+	position:absolute;
+	left:0;
+	top:20;
+	transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg); /* IE 9 */
+	-webkit-transform: rotate(-30deg); /* Safari and Chrome */
+	-o-transform: rotate(-30deg); /* Opera */
+	-moz-transform: rotate(-30deg); /* Firefox */
+}

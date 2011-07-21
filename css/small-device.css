@@ -1,0 +1,330 @@
+/*<link media="only screen and (max-device-width: 480px)" href="small-device.css" type= "text/css" rel="stylesheet">*/
+
+/* Page Layout CSS */
+html
+{
+background-color:#F0F0F0;
+background-image:none;
+}
+
+body
+{
+color:#444444;
+font-family: "Helvetica", Arial, sans;
+width: auto;
+margin-left:0;
+}
+
+#contentwrapper 
+{
+margin-left:20px;
+padding-top:20px;
+padding-left:10px;
+padding-right:10px;
+width:500px;
+}
+
+#contentwrapper a
+{
+text-decoration:none;
+font-weight:bold;
+color:#9966FF;
+}
+
+/* Header */
+#header
+{
+padding-bottom:10px;
+border-bottom:none;
+}
+
+/* Navigation */
+#navigation
+{
+list-style-type: none;
+}
+
+#navigation a
+{
+text-decoration:none;
+padding: 10px 10px 10px 10px; 
+color:#444444;
+background-color:#33BB55;
+}
+
+#navigation a:hover, a:active
+{
+background-color:#DCDCDC;
+}
+
+#navigation li
+{
+display: inline;
+}
+
+/* Headers and Paragraphs */
+
+h1
+{
+font-size: 350%;
+font-family: "angie-sans-1","angie-sans-2",sans-serif;
+font-weight:bold;
+}
+
+h2
+{
+font-size: 175%;
+font-family: "angie-sans-1","angie-sans-2",sans-serif;
+margin-top: 20px;
+font-weight:bold;
+padding-right:0px;
+}
+
+h3
+{
+font-weight:bold;
+padding-left:10px;
+}
+
+h4
+{
+font-style:italic;
+padding-left:10px;
+}
+
+h5{
+    font-weight:bold;
+    padding-left:10px;
+    margin-top:10px;
+}
+
+p
+{
+margin-top:10px;
+padding-left:10px;
+padding-right:0px;
+}
+
+
+
+/* Images */
+
+#homepage img
+{
+display:none;
+}
+
+img.hide
+{
+display:none;
+}
+
+#tabs img{
+    float:right;
+    width:280px;
+    border:5px solid #DCDCDC;
+}
+
+/*About Page*/
+
+#about
+{
+
+}
+
+#about ul li /*Image One*/
+{
+display:none;
+}
+
+#about ul li.two /*Image Two*/
+{
+display:none;
+}
+
+#about img{
+    display:none;
+}
+
+#about ol{
+    margin-left:30px;
+}
+
+#about ol li{
+    list-style-type:decimal;
+    padding-right:300px;
+    font-weight:normal;
+}
+
+/*Applications*/
+
+#application
+{
+position:relative;
+}
+
+#application ul
+{
+position:absolute;
+top:10px;
+right:0px;
+width:250px;
+text-align:right;
+font-size:1.25em;
+}
+
+#application ul li{
+    padding-bottom:15px;
+}
+
+#application ol{
+    margin-left:30px;
+}
+
+#application ol li{
+    list-style-type:decimal;
+    padding-right:300px;
+    font-weight:normal;
+}
+
+
+/* Footer */
+#footer
+{
+border-top: none;
+padding-top:10px;
+padding-bottom:20px;
+margin-top:20px;
+}
+
+#footer li
+{
+display:inline;
+color:#444444;
+left:0;
+}
+
+/* RESUME CSS */
+/* Overview Section */
+
+#overview
+{
+
+}
+
+#overview ul
+{
+padding-top:10px;
+padding-left:30px;
+}
+
+#overview li
+{
+display:inline;
+font-size:90%;
+padding-right:5px;
+border-right:2px solid #9966FF;
+}
+
+
+/* Education Section */
+
+#education
+{
+
+}
+
+#education ul
+{
+
+}
+
+#education li
+{
+padding-top:5px;
+padding-left:10px;
+
+}
+
+
+/* Experience Section and Samples Page */
+
+#experience
+{
+
+}
+
+#experience ol,ul
+{
+
+}
+
+ol > li /*Employer Name*/
+{
+font-weight:bold;
+padding-top:15px;
+padding-left:10px;
+}
+
+ol > li > ul > li /*Job Title*/
+{
+padding-top:10px;
+padding-left:30px;
+font-style:italic;
+font-weight:normal;
+}
+
+ol > li > ul > li > ul > li /*Duties*/
+{
+font-weight:normal;
+font-style:normal;
+font-size:90%;
+padding-left:30px;
+padding-top:5px;
+
+}
+
+/* Portfolio */
+
+#tabs{
+    position:relative;
+    margin-bottom:75px;
+}
+
+#tabs ul li a{
+    color:#444444;
+}
+
+#tabs-1,#tabs-2,#tabs-3,#tabs-4,#tabs-5,#tabs-6,#tabs-7,#tabs-8,#tabs-0 /*Portfolio Items No Javascript*/
+{
+    padding-bottom:30px;
+    margin-top:30px;
+}
+
+#tabs ol > li > ol > li /*Writing Samples*/
+{
+font-weight:normal;
+padding-left:0px;
+}
+
+#tabs ol > li{
+    padding-top:0px;
+    padding-bottom:15px;
+    padding-left:10px;
+}
+
+.description /*Portfolio item or writing sample description*/
+{
+padding-right:150px;
+}
+
+
+/* Writing Samples CSS */
+
+blockquote {
+width: 150px;
+float: right;
+font-size:120%;
+font-style:italic;
+color:#9966FF;
+}
